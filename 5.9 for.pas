@@ -1,8 +1,13 @@
-﻿var n:real;
 var a,b: integer;
+var c,d: real;
 begin
-  writeln('Число слагаемых');
-  readln(b);
-  for a :=1 to b do n:=n+1/a;
-  writeln('n=',n);
+writeln('Введите число');
+readln(b);
+c:= 1;
+d:= 1; 
+for a:= 1 to b do begin
+  d:= d + 1;
+  c:= c * (1 / d);
+  writeln(c);
+  end;
 end.
