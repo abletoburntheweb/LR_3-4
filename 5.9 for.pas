@@ -1,4 +1,4 @@
-var a,b: integer;
+﻿var a,b: integer;
 var c,d: real;
 begin
 writeln('Введите число');
